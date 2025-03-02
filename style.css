@@ -1,0 +1,24 @@
+#btnDiv{
+   text-align: center;
+}
+
+#increaseBtn, #decreaseBtn, #resetBtn{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+    background-color: hsl(214, 100%, 74%);
+    border-radius: 5px;
+    transition: background-color 0.25s;
+
+    &:hover{
+        background-color:  hsl(218, 100%, 56%);
+        transform: scale(1.03 );
+}
+}
+
+#myCounter{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+}
